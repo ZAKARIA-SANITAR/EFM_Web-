@@ -1,0 +1,11 @@
+*{
+	font-size: 12px;
+	font-style: italic;
+	text-transform: capitalize;
+}
+div{
+	margin: 10px;
+}
+input[type="text"]:focus{
+	background-color: yellow;
+}

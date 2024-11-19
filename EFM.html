@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<form method="POST" action="" onsubmit="return validation();">
+		<div>
+			<label for="N">Nom</label>
+			<input type="text" name="N" id="N">
+		</div>
+
+		<div>
+			<label for="R">Résidence</label>
+			<input type="text" name="R" id="R">
+		</div>
+
+		<div>
+			<label for="M">Mail</label>
+			<input type="text" name="M" id="M">
+		</div>
+
+		<div>
+			<label for="A">Age</label>
+			<input type="text" name="A" id="A">
+		</div>
+
+		<div>
+			<label for="">Sexe</label>
+			<input type="radio" value="M" name="Sexe">M
+			<input type="radio" value="F" name="Sexe">F
+		</div>
+
+		<div>
+			<label for="L">langue parlée</labelid>
+			<input type="checkbox" value="FR" id="FR">FR
+			<input type="checkbox" value="AR" id="AR">AR
+			<input type="checkbox" value="ENG" id="ENG">ENG
+		</div>
+        <div>
+			<label for="P">Prefession</label>
+			<select id="Profession">
+				<option value="None">selectionner une option</option>
+				<option value="Developpeur">Developpeur</option>
+				<option value="Formatrice">Formatrice</option>
+			</select>
+		</div>
+
+		<div>
+			<label for="A">Formmulaire</label>
+			<input type="submit" value="Envoyer"/ >
+			<input type="reset" value="intrrompre" />
+		</div>
+
+	</form>
+
+</body>
+</html>
